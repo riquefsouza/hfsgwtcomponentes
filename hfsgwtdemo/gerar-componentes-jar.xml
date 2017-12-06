@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<project name="hfsgwt-componentes" default="distribuir" basedir=".">
+
+	<property name="src" value="${basedir}/src" />
+	<property name="build" value="${basedir}/war" />
+	<property name="dist" value="${basedir}/dist" />
+	<property name="spacote" value="com/hfsgwt/server/**" />
+	<property name="cpacote" value="com/hfsgwt/client/**" />
+	<property name="ppacote" value="com/hfsgwt/public/**" />
+	<property name="gwtxml" value="com/hfsgwt/*.gwt.xml" />
+
+	<echo>Diretorio fonte: ${src}</echo>
+	<echo>Diretorio binarios: ${build}</echo>
+	<echo>Diretorio distribuicao: ${dist}</echo>
+
+	<target name="distribuir">
+		<echo>Gerando o .jar cliente do projeto</echo>
+		<jar jarfile="${dist}/hfsgwt-componentes-cliente.jar" basedir="${src}" 
+			includes="${gwtxml},${cpacote}/*.*,${ppacote}/*.*">
+		</jar>
+		<echo>Gerando o .jar servidor do projeto</echo>
+		<jar jarfile="${dist}/hfsgwt-componentes-servidor.jar" basedir="${src}" 
+			includes="${spacote}/*.class">
+		</jar>
+	</target>
+</project>

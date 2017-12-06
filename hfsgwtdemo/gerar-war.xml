@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<project name="hfsgwtdemo" default="distribuir" basedir=".">
+
+	<property name="src" value="${basedir}/src" />
+	<property name="build" value="${basedir}/war" />
+	<property name="dist" value="${basedir}/dist" />
+
+	<echo>Diretorio fonte: ${src}</echo>
+	<echo>Diretorio binarios: ${build}</echo>
+	<echo>Diretorio distribuicao: ${dist}</echo>
+
+	<target name="distribuir">
+		<echo>Gerando o .jar do projeto</echo>
+		<jar jarfile="${dist}/hfsgwtdemo.war" basedir="${build}" 
+			includes="**/*.*">
+		</jar>
+	</target>
+</project>

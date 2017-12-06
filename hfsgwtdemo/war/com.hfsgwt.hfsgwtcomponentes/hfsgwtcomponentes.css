@@ -1,0 +1,637 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: small;
+	margin: 5px;
+}
+
+a {
+	color: darkblue;
+}
+
+a:visited {
+	color: darkblue;
+}
+
+.gwt-DialogBox {
+	border: 2px solid #AAAAAA;
+	background-color: white;
+}
+
+.gwt-DialogBox .Caption {
+	background-image: url(gray_gradient.gif);
+	background-repeat: repeat-x;
+	padding: 4px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	cursor: default;
+}
+
+.gwt-MenuBar {
+	background-color: #C3D9FF;
+	cursor: default;
+}
+
+.gwt-MenuItem {
+	font-size: 80%;
+	margin: 1px;
+	cursor: default;
+}
+
+.gwt-MenuItem-selected {
+	background-color: #E8EEF7;
+}
+
+.gwt-Tree {
+	
+}
+
+.gwt-Tree .gwt-TreeItem {
+	font-size: 80%;
+	cursor: default;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background-color: #C3D9FF;
+}
+
+.gwt-StackPanel {
+	background-color: white;
+	border: 1px solid #AAAAAA;
+	width: 15em;
+}
+
+.gwt-StackPanel .gwt-StackPanelItem {
+	background-image: url(blue_gradient.gif);
+	background-repeat: repeat-x;
+	background-color: #EEEEEE;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-StackPanel .gwt-StackPanelItem-selected {
+	
+}
+
+.gwt-TabPanel {
+	
+}
+
+.gwt-TabPanelBottom {
+	border-left: 1px solid #87b3ff;
+	border-right: 1px solid #87b3ff;
+	border-bottom: 1px solid #87b3ff;
+}
+
+.gwt-TabBar {
+	font-size: smaller;
+}
+
+.gwt-TabBar .gwt-TabBarFirst {
+	height: 100%;
+	border-bottom: 1px solid #87b3ff;
+	border-right: 1px solid #87b3ff;
+	padding-left: 3px;
+}
+
+.gwt-TabBar .gwt-TabBarRest {
+	border-bottom: 1px solid #87b3ff;
+	padding-right: 3px;
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+	border-top: 1px solid #87b3ff;
+	border-bottom: 1px solid #87b3ff;
+	padding: 2px;
+	cursor: hand;
+	white-space: nowrap;
+	border-right: 1px solid #87b3ff;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected {
+	font-weight: bold;
+	background-color: #e8eef7;
+	border-top: 1px solid #87b3ff;
+	border-right: 1px solid #87b3ff;
+	border-bottom: 1px solid #e8eef7;
+	padding: 2px;
+	cursor: default;
+	white-space: nowrap;
+}
+
+.gwt-PushButton-up {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-PushButton-up-hovering {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-PushButton-down {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-PushButton-down-hovering {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-ToggleButton-up {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-ToggleButton-up-hovering {
+	background-color: #C3D9FF;
+	padding: 2px;
+	border: 2px solid transparent;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-ToggleButton-down {
+	background-color: #C3D9FF;
+	padding: 2px;
+	background-color: #E8F1FF;
+	border: 2px solid transparent;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-ToggleButton-down-hovering {
+	background-color: #C3D9FF;
+	padding: 2px;
+	background-color: #E8F1FF;
+	border: 2px solid transparent;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-RichTextArea {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.gwt-RichTextToolbar {
+	background-color: #C3D9FF;
+	padding: 2px;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up-hovering {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down-hovering {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up-hovering {
+	margin-right: 2px;
+	border: 1px solid #C3D9FF;
+	border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205)
+		rgb(232, 241, 255);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down {
+	margin-right: 2px;
+	background-color: #E8F1FF;
+	border: 1px solid #C3D9FF;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down-hovering {
+	margin-right: 2px;
+	background-color: #E8F1FF;
+	border: 1px solid #C3D9FF;
+	border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255)
+		rgb(157, 174, 205);
+}
+
+.gwt-HorizontalSplitPanel {
+	border: 8px solid #C3D9FF;
+}
+
+.gwt-HorizontalSplitPanel .splitter {
+	background-color: #C3D9FF;
+	cursor: move;
+}
+
+.gwt-HorizontalSplitPanel .left {
+	background-color: #E8EEF7;
+}
+
+.gwt-VerticalSplitPanel {
+	
+}
+
+.gwt-VerticalSplitPanel .splitter {
+	background-color: #C3D9FF;
+	height: 8px;
+	cursor: move;
+}
+
+.gwt-SuggestBoxPopup {
+	border: 2px solid #C3D9FF;
+}
+
+.gwt-SuggestBoxPopup .item {
+	padding: 2px;
+}
+
+.gwt-SuggestBoxPopup .item-selected {
+	background-color: #C3D9FF;
+	padding: 2px;
+}
+
+.gwt-DisclosurePanel {
+	border: 2px solid #C3D9FF;
+}
+
+.gwt-DisclosurePanel .header {
+	background-color: #e8eef7;
+	cursor: hand;
+}
+
+/****************** HFS GWT Componentes. ******************/
+.HFSLogin-grid {
+	border: 1px solid #BBBBBB;
+}
+
+.HFSTree-panel {
+	border: 1px solid #BBBBBB;
+}
+
+.HFSTreeItem-selecionado {
+	background-color: #C3D9FF;
+}
+
+.HFSCaptcha {
+	border: none;
+}
+
+.HFSMap {
+	margin: 0px;
+	border: 1px solid #BBBBBB;
+	padding: 0px
+}
+
+.HFSFlowPlayer {
+	margin: 0px;
+	border: 1px solid #BBBBBB;
+	padding: 0px
+}
+
+.HFSScanner {
+	margin: 0px;
+	border: 1px solid #BBBBBB;
+	padding: 0px
+}
+
+.HFSNavigator-labPaginacao {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSLabelTextNumber {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSLabelEncode64 {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSLabelHash {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSLabelCrypt {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSLabelChronometer {
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.HFSRichText {
+	border: 1px solid #BBBBBB;
+	border-spacing: 0px;
+}
+
+.HFSTextArea-desfocado {
+	border: 1px solid rgb(127, 157, 185);
+}
+
+.HFSTextArea-focado {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+}
+
+.HFSListBox-desfocado {
+	border: 1px solid rgb(127, 157, 185);
+}
+
+.HFSListBox-focado {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+}
+
+.HFSSuggestBox-desfocado {
+	border: 1px solid rgb(127, 157, 185);
+}
+
+.HFSSuggestBox-focado {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+}
+
+.HFSTextBox-desfocado {
+	border: 1px solid rgb(127, 157, 185);
+}
+
+.HFSTextBox-focado {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+}
+
+.HFSTextBox-focado-uppercase {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+	text-transform: uppercase;
+}
+
+.HFSTextBox-focado-lowercase {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+	text-transform: lowercase;
+}
+
+.HFSTextBox-focado-capitalize {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 255, 221);
+	text-transform: capitalize;
+}
+
+.HFSTextBox-erro {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 102, 102);
+}
+
+.HFSTextBox-erro-uppercase {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 102, 102);
+	text-transform: uppercase;
+}
+
+.HFSTextBox-erro-lowercase {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 102, 102);
+	text-transform: lowercase;
+}
+
+.HFSTextBox-erro-capitalize {
+	border: 1px solid rgb(127, 157, 185);
+	background-color: rgb(255, 102, 102);
+	text-transform: capitalize;
+}
+
+.HFSTextBox-calendario {
+	position: absolute;
+}
+
+.HFSStringGrid-borda {
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.HFSStringGrid-cabecalho { 
+	background-color: rgb(211,214,221);				
+	table-layout: fixed;
+}
+
+.HFSStringGrid-cabecalho td { 
+	font-weight: bold;
+}
+
+.HFSStringGrid-conteudo {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.HFSStringGrid-conteudo td {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0 2px 10px;
+}
+
+.HFSStringGrid-linhaSelecionada {
+	background: #adcce7;
+	cursor: pointer;
+}
+
+.HFSStringGrid-linhaSelecionada td {
+	border-top: 1px solid #88a4d6;
+	border-bottom: 1px solid #7b97d0;
+}
+
+.HFSGrid-borda {
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.HFSGrid-cabecalho {
+	background-color: rgb(211,214,221);
+	cursor: pointer;	
+	table-layout: fixed;
+}
+
+.HFSGrid-cabecalho td { 
+	font-weight: bold;	
+}
+
+.HFSGrid-conteudo {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.HFSGrid-conteudo td {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0 2px 10px;
+}
+
+.HFSGrid-linhaSelecionada {
+	background: #adcce7;
+	cursor: pointer;
+}
+
+.HFSGrid-linhaSelecionada td {
+	border-top: 1px solid #88a4d6;
+	border-bottom: 1px solid #7b97d0;
+}
+
+.HFSThemeSelector-standard {
+	background-color: rgb(204, 0, 0);
+	background: #d0e4f6;
+	width: 36px;
+	height: 16px;
+	margin: 3px 0px 0px 10px;
+	padding: 0px;
+	cursor: default;
+}
+
+.HFSThemeSelector-chrome {
+	background: #ccc;
+	width: 36px;
+	height: 16px;
+	margin: 3px 0px 0px 10px;
+	padding: 0px;
+	cursor: default;
+}
+
+.HFSThemeSelector-dark {
+	background: #3d3d3d;
+	width: 36px;
+	height: 16px;
+	margin: 3px 0px 0px 10px;
+	padding: 0px;
+	cursor: default;
+}
+
+.HFSApplication-ConteudoPanel {
+	padding: 0.5em;
+	line-height: 150%;
+}
+
+.HFSApplication-NortePanel {
+	border: 1px solid #999;
+}
+
+.HFSStackPanel-LayoutPainel {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.HFSStackPanel-Link {
+	display: block;
+}
+
+.HFSStackPanel-MenuHeader {
+	background-color: #b4b6bc;
+	cursor: pointer;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 1px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;
+	padding: .7em .5em 0 .6em;
+	border-top: 1px solid #888;
+}
+
+.HFSProgressBar-Panel {
+	border: 1px solid #999;
+}
+
+.HFSFTPViewer-Panel {
+	border: 1px solid #999;
+}
+
+.HFSProgressBar-Label {
+	font-weight: bold;
+}
+
+.HFSPasswordChecker-prata {
+	border: 1px outset silver;
+	background-color: silver;
+}
+
+.HFSPasswordChecker-vermelho {
+	font-weight: bold;
+	background-color: red;
+	border: 1px outset red;	
+}
+
+.HFSPasswordChecker-amarelo {
+	font-weight: bold;
+	background-color: yellow;
+	border: 1px outset yellow;	
+}
+
+.HFSPasswordChecker-verde {
+	font-weight: bold;
+	background-color: green;
+	border: 1px outset green;
+}

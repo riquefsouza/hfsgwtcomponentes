@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+<!--	 
+	<filter>
+  		<filter-name>FiltroSessaoLogin</filter-name>
+  		<filter-class>br.gov.pe.sds.login.portalweb.appweb.FiltroSessaoLogin</filter-class>
+ 	</filter>
+	<filter-mapping>
+ 	    <filter-name>FiltroSessaoLogin</filter-name>
+  		<url-pattern>*.sds</url-pattern>
+ 	</filter-mapping> 
+-->
+	<listener>
+		<listener-class>
+			com.hfsgwt.server.HfsgwtCtxListener
+		</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>
+			com.hfsgwtdemo.server.HfsgwtdemoCtxListener
+		</listener-class>
+	</listener>
+<!--	
+	<servlet>
+ 		<servlet-name>ServletSessaoLogin</servlet-name>
+  		<servlet-class>br.gov.pe.sds.login.portalweb.appweb.ServletSessaoLogin</servlet-class>
+  		<init-param>
+   			<param-name>IP_VALIDO</param-name>
+   			<param-value>200.238.112.158</param-value>
+ 	    </init-param>
+  			<load-on-startup>1</load-on-startup>
+ 	</servlet>  
+	<servlet-mapping>
+  		<servlet-name>ServletSessaoLogin</servlet-name>
+  		<url-pattern>/login</url-pattern>
+ 	</servlet-mapping>  
+    
+    <servlet>
+ 		 <servlet-name>ServletEfetuarLogoff</servlet-name>
+		 <servlet-class>br.gov.pe.sds.login.portalweb.appweb.ServletEfetuarLogoff</servlet-class>
+    </servlet>  
+ 	<servlet-mapping>
+    	<servlet-name>ServletEfetuarLogoff</servlet-name>
+  		<url-pattern>/efetuarLogoff</url-pattern>
+ 	</servlet-mapping>  
+-->	
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>demoServlet</servlet-name>
+		<servlet-class>com.hfsgwtdemo.server.DemoServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>demoServlet</servlet-name>
+		<url-pattern>/hfsgwtdemo/demoservico</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes Servlets -->
+
+	<servlet>
+		<servlet-name>HfsgwtServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.HfsgwtServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HfsgwtServlet</servlet-name>
+		<url-pattern>/hfsgwtdemo/hfsgwtservico</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes UPLOAD SERVLET -->
+
+	<servlet>
+		<servlet-name>uploadServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.UploadServlet</servlet-class>
+		<init-param>
+			<param-name>HabilitarFTP</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>ServidorFTP</param-name>
+			<param-value>200.238.112.36</param-value>
+		</init-param>
+		<init-param>
+			<param-name>UsuarioFTP</param-name>
+			<param-value>ftpadm</param-value>
+		</init-param>
+		<init-param>
+			<param-name>SenhaFTP</param-name>
+			<param-value>ftp$adm!</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>uploadServlet</servlet-name>
+		<url-pattern>/arquivoupload</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes RELATORIO SERVLET -->
+
+	<servlet>
+		<servlet-name>relatorioServlet</servlet-name>
+		<servlet-class>com.hfsgwtdemo.server.DemoRelatorioServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>relatorioServlet</servlet-name>
+		<url-pattern>/relatorio</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes MAPA SERVLET -->
+
+	<servlet>
+		<servlet-name>mapaServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.mapa.MapaServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mapaServlet</servlet-name>
+		<url-pattern>/mapa</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes SCANNER SERVLET -->
+
+	<servlet>
+		<servlet-name>scannerServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.scanner.ScannerServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>scannerServlet</servlet-name>
+		<url-pattern>/scanner</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes CHART SERVLET -->
+
+	<servlet>
+		<servlet-name>chartServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.chart.ChartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>chartServlet</servlet-name>
+		<url-pattern>/grafico</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes CAPTCHA SERVLET -->
+
+	<servlet>
+		<servlet-name>jcaptcha</servlet-name>
+		<servlet-class>com.hfsgwt.server.captcha.ImageCaptchaServlet</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>jcaptcha</servlet-name>
+		<url-pattern>/jcaptcha.jpg</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>captchaServlet</servlet-name>
+		<servlet-class>
+			com.hfsgwt.server.captcha.CaptchaServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>captchaServlet</servlet-name>
+		<url-pattern>/captcha</url-pattern>
+	</servlet-mapping>
+
+	<!-- HFS-GWT-Componentes BARCODE SERVLET -->
+	
+	<servlet>
+		<servlet-name>BarcodeServlet</servlet-name>
+	    <servlet-class>org.krysalis.barcode4j.servlet.BarcodeServlet</servlet-class>	
+	</servlet>
+	<servlet>
+		<servlet-name>BarcodeErrorServlet</servlet-name>
+		<servlet-class>com.hfsgwt.server.barcode.BarcodeErrorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BarcodeServlet</servlet-name>
+		<url-pattern>/gensvg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BarcodeServlet</servlet-name>
+		<url-pattern>/genbc</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BarcodeErrorServlet</servlet-name>
+		<url-pattern>/errsvg</url-pattern>
+	</servlet-mapping>
+<!--  	
+	<mime-mapping>
+		<extension>xhtml</extension>
+		<mime-type>text/html</mime-type>
+	</mime-mapping>	
+	<mime-mapping>
+		<extension>svg</extension>
+		<mime-type>image/svg+xml</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>svgz</extension>
+		<mime-type>image/svg+xml</mime-type>
+	</mime-mapping>
+-->  
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>Hfsgwtdemo.html</welcome-file>
+	</welcome-file-list>
+
+	<taglib>
+		<taglib-uri>/tags/captcha</taglib-uri>
+		<taglib-location>/WEB-INF/tlds/jcaptcha.tld</taglib-location>
+	</taglib>
+
+	<error-page>
+		<exception-type>org.krysalis.barcode4j.BarcodeException</exception-type>
+		<location>/errsvg</location>
+	</error-page>
+</web-app>

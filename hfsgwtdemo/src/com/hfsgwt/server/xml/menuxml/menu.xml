@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<menuxml>
+	<sistemas>
+		<sistema ordem="1" codigo="HFS_GWT_COMPONENTES_DEMO" label="HFS GWT Componentes Demo">
+			<menus>
+				<menu ordem="1" codigo="SIMPLES" label="SIMPLES">
+					<items>
+						<item ordem="1" codigo="HFSTextBox" label="HFSTextBox" link="HFSTextBox" />
+						<item ordem="2" codigo="HFSTextArea" label="HFSTextArea"
+							link="HFSTextArea" />
+						<item ordem="3" codigo="HFSListBox" label="HFSListBox" link="HFSListBox" />
+						<item ordem="4" codigo="HFSRichText" label="HFSRichText"
+							link="HFSRichText" />
+						<item ordem="5" codigo="HFSCalculator" label="HFSCalculator"
+							link="HFSCalculator" />
+						<item ordem="6" codigo="HFSNavigator" label="HFSNavigator"
+							link="HFSNavigator" />
+						<item ordem="7" codigo="HFSTabPanel" label="HFSTabPanel"
+							link="HFSTabPanel" />
+						<item ordem="8" codigo="HFSMultiRadioButton" label="HFSMultiRadioButton"
+							link="HFSMultiRadioButton" />
+						<item ordem="9" codigo="HFSMultiCheckBox" label="HFSMultiCheckBox"
+							link="HFSMultiCheckBox" />
+						<item ordem="10" codigo="HFSDualList" label="HFSDualList"
+							link="HFSDualList" />
+						<item ordem="11" codigo="HFSLinkedListBox" label="HFSLinkedListBox"
+							link="HFSLinkedListBox" />
+						<item ordem="12" codigo="HFSDialogMessage" label="HFSDialogMessage"
+							link="HFSDialogMessage" />
+						<item ordem="13" codigo="HFSProgressBar" label="HFSProgressBar"
+							link="HFSProgressBar" />
+						<item ordem="14" codigo="HFSSlider" label="HFSSlider" link="HFSSlider" />
+						<item ordem="15" codigo="HFSThemeSelector" label="HFSThemeSelector"
+							link="HFSThemeSelector" />
+					</items>
+				</menu>
+				<menu ordem="2" codigo="SIMPLESCOMRPC" label="SIMPLES COM RPC">
+					<items>
+						<item ordem="1" codigo="HFSSuggestBox" label="HFSSuggestBox"
+							link="HFSSuggestBox" />
+						<item ordem="2" codigo="HFSLabelEncode64" label="HFSLabelEncode64"
+							link="HFSLabelEncode64" />
+						<item ordem="3" codigo="HFSLabelTextNumber" label="HFSLabelTextNumber"
+							link="HFSLabelTextNumber" />
+						<item ordem="4" codigo="HFSLabelCrypt" label="HFSLabelCrypt"
+							link="HFSLabelCrypt" />
+						<item ordem="5" codigo="HFSLabelHash" label="HFSLabelHash"
+							link="HFSLabelHash" />
+						<item ordem="6" codigo="HFSLabelChronometer" label="HFSLabelChronometer"
+							link="HFSLabelChronometer" />
+						<item ordem="7" codigo="HFSCaptcha" label="HFSCaptcha" link="HFSCaptcha" />
+						<item ordem="8" codigo="HFSDialogFileUpload" label="HFSDialogFileUpload"
+							link="HFSDialogFileUpload" />
+						<item ordem="9" codigo="HFSPasswordChecker" label="HFSPasswordChecker"
+							link="HFSPasswordChecker" />
+					</items>
+				</menu>
+				<menu ordem="3" codigo="COMPLEXO" label="COMPLEXO">
+					<items>
+						<item ordem="1" codigo="HFSLogin" label="HFSLogin" link="HFSLogin" />
+						<item ordem="2" codigo="HFSStackPanel" label="HFSStackPanel"
+							link="HFSStackPanel" />
+						<item ordem="3" codigo="HFSMenu" label="HFSMenu" link="HFSMenu" />
+						<item ordem="4" codigo="HFSTree" label="HFSTree" link="HFSTree" />
+						<item ordem="5" codigo="HFSStringGrid" label="HFSStringGrid"
+							link="HFSStringGrid" />
+						<item ordem="6" codigo="HFSGrid" label="HFSGrid" link="HFSGrid" />
+						<item ordem="7" codigo="HFSEndereco" label="HFSEndereco"
+							link="HFSEndereco" />
+						<item ordem="8" codigo="HFSCadastro" label="HFSCadastro"
+							link="HFSCadastro" />
+						<item ordem="9" codigo="HFSSiadmTree" label="HFSSiadmTree"
+							link="HFSSiadmTree" />
+					</items>
+				</menu>
+				<menu ordem="4" codigo="COMPLEXOAPISEXTERNAS" label="COMPLEXO APIS">
+					<items>
+						<item ordem="1" codigo="HFSMap" label="HFSMap" link="HFSMap" />
+						<item ordem="2" codigo="HFSStaticMap" label="HFSStaticMap"
+							link="HFSStaticMap" />
+						<item ordem="3" codigo="HFSBarcode" label="HFSBarcode" link="HFSBarcode" />
+						<item ordem="4" codigo="HFSReport" label="HFSReport" link="HFSReport" />
+						<item ordem="5" codigo="HFSReportSaveBar" label="HFSReportSaveBar"
+							link="HFSReportSaveBar" />
+						<item ordem="6" codigo="HFSFTPViewer" label="HFSFTPViewer"
+							link="HFSFTPViewer" />
+						<item ordem="7" codigo="HFSDialogEmail" label="HFSDialogEmail"
+							link="HFSDialogEmail" />
+						<item ordem="8" codigo="HFSDialogChat" label="HFSDialogChat"
+							link="HFSDialogChat" />
+						<item ordem="9" codigo="HFSFlowPlayer" label="HFSFlowPlayer"
+							link="HFSFlowPlayer" />
+						<item ordem="10" codigo="HFSScanner" label="HFSScanner" link="HFSScanner" />
+					</items>
+				</menu>
+				<menu ordem="5" codigo="GRAFICOS" label="GRAFICOS">
+					<items>
+						<item ordem="1" codigo="PieChart" label="HFSChart - PieChart"
+							link="PieChart" />
+						<item ordem="2" codigo="PieChart3D" label="HFSChart - PieChart3D"
+							link="PieChart3D" />
+						<item ordem="3" codigo="XYLineChart" label="HFSChart - XYLineChart"
+							link="XYLineChart" />
+						<item ordem="4" codigo="BarChart" label="HFSChart - BarChart"
+							link="BarChart" />
+						<item ordem="5" codigo="BarChart3D" label="HFSChart - BarChart3D"
+							link="BarChart3D" />
+						<item ordem="6" codigo="TimeSeriesChart" label="HFSChart - TimeSeriesChart"
+							link="TimeSeriesChart" />
+						<item ordem="7" codigo="AreaChart" label="HFSChart - AreaChart"
+							link="AreaChart" />
+						<item ordem="8" codigo="StackedBarChart" label="HFSChart - StackedBarChart"
+							link="StackedBarChart" />
+						<item ordem="9" codigo="StackedBarChart3D" label="HFSChart - StackedBarChart3D"
+							link="StackedBarChart3D" />
+						<item ordem="10" codigo="XYAreaChart" label="HFSChart - XYAreaChart"
+							link="XYAreaChart" />
+						<item ordem="11" codigo="XYStepChart" label="HFSChart - XYStepChart"
+							link="XYStepChart" />
+						<item ordem="12" codigo="XYStepAreaChart" label="HFSChart - XYStepAreaChart"
+							link="XYStepAreaChart" />
+						<item ordem="13" codigo="LineChart" label="HFSChart - LineChart"
+							link="LineChart" />
+						<item ordem="14" codigo="LineChart3D" label="HFSChart - LineChart3D"
+							link="LineChart3D" />
+						<item ordem="15" codigo="XYBarChart" label="HFSChart - XYBarChart"
+							link="XYBarChart" />
+						<item ordem="16" codigo="HistogramChart" label="HFSChart - HistogramChart"
+							link="HistogramChart" />
+						<item ordem="17" codigo="BubbleChart" label="HFSChart - BubbleChart"
+							link="BubbleChart" />
+						<item ordem="18" codigo="BoxAndWhiskerChart" label="HFSChart - BoxAndWhiskerChart"
+							link="BoxAndWhiskerChart" />
+						<item ordem="19" codigo="StackedAreaChart" label="HFSChart - StackedAreaChart"
+							link="StackedAreaChart" />
+						<item ordem="20" codigo="ScatterChart" label="HFSChart - ScatterChart"
+							link="ScatterChart" />
+						<item ordem="21" codigo="HighLowChart" label="HFSChart - HighLowChart"
+							link="HighLowChart" />
+						<item ordem="22" codigo="CandlestickChart" label="HFSChart - CandlestickChart"
+							link="CandlestickChart" />
+						<item ordem="23" codigo="GanttChart" label="HFSChart - GanttChart"
+							link="GanttChart" />
+					</items>
+				</menu>
+			</menus>
+		</sistema>
+	</sistemas>
+</menuxml>
