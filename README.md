@@ -1,2 +1,2 @@
 # hfsgwtcomponentes
-hfsgwtcomponentes - Componentes para projetos usando a Google Web Toolkit
+hfsgwtcomponentes - Components for projects using the Google Web Toolkit
